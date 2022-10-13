@@ -20,7 +20,7 @@
 
 4. Перейти в [BotFather](https://t.me/botfather) и создать бота с сложным для подбора никнеймом, например `unic_9137_oecm_bot`
 5. Затем скопировать API token бота
-6. Поменять значение переменной API_TOKEN вставив свой токен
+6. Открыть **msg_bot.py** с помощью текстового редактора и поменять значение переменной API_TOKEN вставив свой токен из BotFather'а. Сохранить изменения!
 7. Запустить установку exe файла
 
   `pyinstaller -F --noconsole -n "Name of your app" -i default_image.ico msg_bot.py`
